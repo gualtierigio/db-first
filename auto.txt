@@ -3,20 +3,20 @@ telaio_numero - stringa - VARCHAR(25) - NOTNULL - UNIQUE
 marca - stringa - VARCHAR(30) - NOTNULL 
 modello - stringa - VARCHAR(30) - NOTNULL
 anno_immatricolazione data - YEAR - NOTNULL
-cilindrata intero - SMALLINT - NOTNULL
-kilowat
-cavalli
-alimentazione
-chilometraggio
-nuovo
-recensioni
-vendute
-invendute
-colore
-cambio
-porte
-posti
-garanzia
-prezzo
-optionals
-omologazione
+cilindrata - intero - SMALLINT - NOTNULL
+kilowat - intero - SMALLINT - NOTNULL
+cavalli - intero - SMALLINT - NOTNULL
+alimentazione - stringa - VARCHAR(15) - NOTNULL
+chilometraggio - intero - SMALLINT - NOTNULL
+nuovo - booleano - TINYINT - NOTNULL
+recensioni - stringa - TEXT - NULL
+vendute - intero - MEDIUMINT - NULL
+invendute - intero - SMALLINT - NULL
+colore - stringa - VARCHAR(40) - NOTNULL
+cambio - stringa - VARCHAR(15) - NOTNULL
+porte - intero - TINYINT - NOTNULL
+posti - intero - TINYINT - NOTNULL
+garanzia data - YEAR
+prezzo numero decimale - FLOAT(9,2) NOTNULL
+optionals stringa - VARCHAR(255) NULL
+omologazione - booleano - TINYINT - NOTNULL
